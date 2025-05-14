@@ -1,0 +1,26 @@
+h1 {
+  text-align: center;
+  font-size: 64px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 40%;
+}
+
+body {
+  background-color: #444;
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+button {
+  background-color: white;
+  font-size: 36px;
+  color: #444;
+  border-radius: 10px;
+  border-color: white;
+}
