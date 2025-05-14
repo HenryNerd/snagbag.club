@@ -1,0 +1,53 @@
+body {
+  background-color: #444;
+  font-family: sans-serif;
+}
+
+.person {
+  background-color: #c0f89a;
+  width: 300px;
+  line-height: 10px;
+  height: 100px;
+  text-align: center;
+  padding-top: 1px;
+  font-family: sans-serif;
+  color: #444;
+}
+
+.person h2 {
+  font-size: 36px;
+}
+
+.person h3 {
+  font-size: 18px;
+}
+
+.People1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.people2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.josephineThomas {
+  font-size: 24px;
+}
+
+.titletop {
+  text-align: center;
+  font-size: 48px;
+  font-family: sans-serif;
+  color: white;
+}
+
+a {
+  color: dodgerblue;
+  text-decoration: none;
+}
