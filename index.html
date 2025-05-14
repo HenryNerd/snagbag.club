@@ -1,0 +1,33 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Snag Bag</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="Untitled (6).png" type="image/x-icon" />
+  </head>
+  <body>
+    <img src="Snag Bag Logo (2).png" alt="snag bag" />
+    <h1>The Snag Bag</h1>
+    <div class="buttons" style="text-align: center">
+      <button onclick="ourTeam()">Our Team</button>
+      <button onclick="ourProduct()">Our Product</button>
+      <button onclick="openNewTab('https://forms.fillout.com/t/vTgGnxZwnQus')">
+        Market Research Form
+      </button>
+      <script>
+        function ourTeam() {
+          window.location.href = "team.html";
+        }
+        function ourProduct() {
+          window.location.href = "product.html";
+        }
+        function openNewTab(url) {
+          window.open(url, "_blank");
+        }
+      </script>
+    </div>
+  </body>
+</html>
