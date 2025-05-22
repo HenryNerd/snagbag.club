@@ -7,7 +7,6 @@ h1 {
   text-align: center;
   font-size: 52px;
   text-align: center;
-  color: white;
 }
 
 a {
@@ -17,9 +16,7 @@ a {
 
 p {
   text-align: center;
-  color: #444;
   font-size: 28px;
-  background-color: #c0f89a;
   width: 100%;
   text-align: center;
   height: 165px;
@@ -27,4 +24,14 @@ p {
 
 .he {
   height: 50px;
+}
+
+.je {
+  text-align: center;
+}
+
+.hehe {
+  background-color: #c0f89a;
+  color: #444;
+  border-radius: 10px;
 }
